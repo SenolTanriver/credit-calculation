@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>members</title>
+  <link rel="stylesheet" href="Content/Styles/Base.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <section class="section-01">
+
+    <div class="conteiner">
+
+      <label for="CekilenTutar">Kredi Tutarı: </label>
+      <input type="text" name="CekilenTutar" id="CekilenTutar">
+      <br>
+      <label for="vadeSayisi">Vade Sayisi: </label>
+      <select name="vadeSayisi" id="vadeSayisi">
+        <option value="12">12 Ay</option>
+        <option value="24">24 Ay</option>
+        <option value="36">36 Ay</option>
+        <option value="48">48 Ay</option>
+      </select>
+      <br>
+      <input type="button" class="btn" value="Hesapla" onclick="krediHesapla();">
+<div id="sonuc">
+  
+</div>
+
+    </div>
+  </section>
+  <script src="Content/Js/kredi.js">
+  </script>
+
+</body>
+
+</html>

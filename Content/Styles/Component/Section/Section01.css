@@ -1,0 +1,23 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-01 {
+    display: flex;
+  }
+  .section-01 .conteiner {
+    display: grid;
+    margin: 100px 100px;
+  }
+  .section-01 .conteiner .btn {
+    border: solid 1px black;
+    cursor: pointer;
+  }
+  .section-01 .conteiner select, .section-01 .conteiner input {
+    border: solid 1px black;
+  }
+  .section-01 .conteiner .btn:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+  }
+}/*# sourceMappingURL=Section01.css.map */
